@@ -4,7 +4,8 @@ class ChattyStudent < Student
 
 	def hello
 		super
-		puts "How are you doing today? I'm okay, but I'm kind of tired. 
+  	puts "Hey there! I'm so excited to learn stuff.  
+  	How are you doing today? I'm okay, but I'm kind of tired. 
 		Did you watch The Walking Dead last night? 
 		You didn't?! Oh man, it was so crazy! 
 		What, you don't want any spoilers? 
@@ -15,7 +16,6 @@ class ChattyStudent < Student
 		phrase = "Pick me!"
 		10.times do 
 		puts phrase
+	  end 
 	end 
-	
 end 
-
